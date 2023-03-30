@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		281372BD298006A90023C0DF /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281372BC298006A90023C0DF /* Fonts.swift */; };
+		283F50EF29A922EF00AE35F0 /* metronome.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 283F50EE29A922EF00AE35F0 /* metronome.mp3 */; };
+		283F50F129ACF4F900AE35F0 /* ScreenSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283F50F029ACF4F900AE35F0 /* ScreenSizes.swift */; };
+		283F50F429ACF58500AE35F0 /* SwipeDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283F50F329ACF58500AE35F0 /* SwipeDetector.swift */; };
+		283F50F629AE39F000AE35F0 /* TestMotionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283F50F529AE39F000AE35F0 /* TestMotionView.swift */; };
+		28523E1F2987C68700630459 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28523E1E2987C68700630459 /* Numbers.swift */; };
+		28523E212987C9BF00630459 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28523E202987C9BF00630459 /* Images.swift */; };
+		288B529C29C4AE690084124C /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288B529B29C4AE690084124C /* InformationView.swift */; };
+		288B529E29C4B27F0084124C /* ImpressumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288B529D29C4B27F0084124C /* ImpressumView.swift */; };
+		288B52A029C4B46F0084124C /* DataSecurityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288B529F29C4B46F0084124C /* DataSecurityView.swift */; };
+		288B52A329CA10C50084124C /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288B52A229CA10C50084124C /* TitleView.swift */; };
+		288B52A529CA11440084124C /* TimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288B52A429CA11440084124C /* TimePicker.swift */; };
+		28A6A7B8297E98830094018A /* EOTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A6A7B7297E98830094018A /* EOTimerApp.swift */; };
+		28A6A7BA297E98830094018A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A6A7B9297E98830094018A /* SettingsView.swift */; };
+		28A6A7BC297E98840094018A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A6A7BB297E98840094018A /* Assets.xcassets */; };
+		28A6A7BF297E98840094018A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A6A7BE297E98840094018A /* Preview Assets.xcassets */; };
+		28A6A7C7297E9A840094018A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A6A7C6297E9A840094018A /* Colors.swift */; };
+		28A6A7C9297EA1B80094018A /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A6A7C8297EA1B80094018A /* TimerView.swift */; };
+		28E0049D298D186C00A9A5DF /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E0049C298D186C00A9A5DF /* Strings.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		281372BC298006A90023C0DF /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		283F50EE29A922EF00AE35F0 /* metronome.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = metronome.mp3; sourceTree = "<group>"; };
+		283F50F029ACF4F900AE35F0 /* ScreenSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSizes.swift; sourceTree = "<group>"; };
+		283F50F329ACF58500AE35F0 /* SwipeDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeDetector.swift; sourceTree = "<group>"; };
+		283F50F529AE39F000AE35F0 /* TestMotionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMotionView.swift; sourceTree = "<group>"; };
+		28523E1E2987C68700630459 /* Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
+		28523E202987C9BF00630459 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		288B529B29C4AE690084124C /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
+		288B529D29C4B27F0084124C /* ImpressumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpressumView.swift; sourceTree = "<group>"; };
+		288B529F29C4B46F0084124C /* DataSecurityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSecurityView.swift; sourceTree = "<group>"; };
+		288B52A229CA10C50084124C /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		288B52A429CA11440084124C /* TimePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePicker.swift; sourceTree = "<group>"; };
+		28A6A7B4297E98830094018A /* EO-Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EO-Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28A6A7B7297E98830094018A /* EOTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EOTimerApp.swift; sourceTree = "<group>"; };
+		28A6A7B9297E98830094018A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		28A6A7BB297E98840094018A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28A6A7BE297E98840094018A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		28A6A7C6297E9A840094018A /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		28A6A7C8297EA1B80094018A /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		28A6A7CA297EF2240094018A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		28E0049C298D186C00A9A5DF /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28A6A7B1297E98830094018A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		283F50F229ACF54C00AE35F0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				283F50F329ACF58500AE35F0 /* SwipeDetector.swift */,
+				283F50F029ACF4F900AE35F0 /* ScreenSizes.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		288B52A129CA10A90084124C /* SettingsViews */ = {
+			isa = PBXGroup;
+			children = (
+				288B52A229CA10C50084124C /* TitleView.swift */,
+				288B52A429CA11440084124C /* TimePicker.swift */,
+			);
+			path = SettingsViews;
+			sourceTree = "<group>";
+		};
+		28A04E5429813AC7004203E7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				283F50EE29A922EF00AE35F0 /* metronome.mp3 */,
+				28A6A7BB297E98840094018A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		28A6A7AB297E98830094018A = {
+			isa = PBXGroup;
+			children = (
+				288B529F29C4B46F0084124C /* DataSecurityView.swift */,
+				283F50F529AE39F000AE35F0 /* TestMotionView.swift */,
+				28A6A7B6297E98830094018A /* EOTimer */,
+				28A6A7B5297E98830094018A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28A6A7B5297E98830094018A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28A6A7B4297E98830094018A /* EO-Timer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28A6A7B6297E98830094018A /* EOTimer */ = {
+			isa = PBXGroup;
+			children = (
+				288B52A129CA10A90084124C /* SettingsViews */,
+				283F50F229ACF54C00AE35F0 /* Extensions */,
+				28A6A7CA297EF2240094018A /* Info.plist */,
+				28A6A7BD297E98840094018A /* Preview Content */,
+				28A04E5429813AC7004203E7 /* Resources */,
+				28A6A7C5297E9A770094018A /* Shared */,
+				28A6A7B7297E98830094018A /* EOTimerApp.swift */,
+				28A6A7B9297E98830094018A /* SettingsView.swift */,
+				288B529B29C4AE690084124C /* InformationView.swift */,
+				288B529D29C4B27F0084124C /* ImpressumView.swift */,
+				28A6A7C8297EA1B80094018A /* TimerView.swift */,
+			);
+			path = EOTimer;
+			sourceTree = "<group>";
+		};
+		28A6A7BD297E98840094018A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				28A6A7BE297E98840094018A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		28A6A7C5297E9A770094018A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				28A6A7C6297E9A840094018A /* Colors.swift */,
+				281372BC298006A90023C0DF /* Fonts.swift */,
+				28523E1E2987C68700630459 /* Numbers.swift */,
+				28523E202987C9BF00630459 /* Images.swift */,
+				28E0049C298D186C00A9A5DF /* Strings.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28A6A7B3297E98830094018A /* EOTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28A6A7C2297E98840094018A /* Build configuration list for PBXNativeTarget "EOTimer" */;
+			buildPhases = (
+				28A6A7B0297E98830094018A /* Sources */,
+				28A6A7B1297E98830094018A /* Frameworks */,
+				28A6A7B2297E98830094018A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EOTimer;
+			productName = EOTimer;
+			productReference = 28A6A7B4297E98830094018A /* EO-Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28A6A7AC297E98830094018A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					28A6A7B3297E98830094018A = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 28A6A7AF297E98830094018A /* Build configuration list for PBXProject "EOTimer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28A6A7AB297E98830094018A;
+			productRefGroup = 28A6A7B5297E98830094018A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28A6A7B3297E98830094018A /* EOTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28A6A7B2297E98830094018A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A6A7BF297E98840094018A /* Preview Assets.xcassets in Resources */,
+				283F50EF29A922EF00AE35F0 /* metronome.mp3 in Resources */,
+				28A6A7BC297E98840094018A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28A6A7B0297E98830094018A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288B52A029C4B46F0084124C /* DataSecurityView.swift in Sources */,
+				28A6A7BA297E98830094018A /* SettingsView.swift in Sources */,
+				28A6A7C7297E9A840094018A /* Colors.swift in Sources */,
+				283F50F429ACF58500AE35F0 /* SwipeDetector.swift in Sources */,
+				28E0049D298D186C00A9A5DF /* Strings.swift in Sources */,
+				283F50F629AE39F000AE35F0 /* TestMotionView.swift in Sources */,
+				283F50F129ACF4F900AE35F0 /* ScreenSizes.swift in Sources */,
+				28A6A7B8297E98830094018A /* EOTimerApp.swift in Sources */,
+				288B52A529CA11440084124C /* TimePicker.swift in Sources */,
+				281372BD298006A90023C0DF /* Fonts.swift in Sources */,
+				28A6A7C9297EA1B80094018A /* TimerView.swift in Sources */,
+				288B529E29C4B27F0084124C /* ImpressumView.swift in Sources */,
+				288B529C29C4AE690084124C /* InformationView.swift in Sources */,
+				28523E212987C9BF00630459 /* Images.swift in Sources */,
+				28523E1F2987C68700630459 /* Numbers.swift in Sources */,
+				288B52A329CA10C50084124C /* TitleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		28A6A7C0297E98840094018A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28A6A7C1297E98840094018A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28A6A7C3297E98840094018A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EOTimer/Preview Content\"";
+				DEVELOPMENT_TEAM = 6PM2SCK75D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EOTimer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "EO-Timer";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobilesoftware.eotimer;
+				PRODUCT_NAME = "EO-Timer";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28A6A7C4297E98840094018A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EOTimer/Preview Content\"";
+				DEVELOPMENT_TEAM = 6PM2SCK75D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EOTimer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "EO-Timer";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobilesoftware.eotimer;
+				PRODUCT_NAME = "EO-Timer";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28A6A7AF297E98830094018A /* Build configuration list for PBXProject "EOTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28A6A7C0297E98840094018A /* Debug */,
+				28A6A7C1297E98840094018A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28A6A7C2297E98840094018A /* Build configuration list for PBXNativeTarget "EOTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28A6A7C3297E98840094018A /* Debug */,
+				28A6A7C4297E98840094018A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28A6A7AC297E98830094018A /* Project object */;
+}
